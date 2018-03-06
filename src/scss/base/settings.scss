@@ -47,3 +47,14 @@ video {
 textarea {
 	resize: none;
 }
+
+@include tablets {
+	html,body {
+		font-size: 14px;
+	}
+}
+@include phones {
+	html,body {
+		font-size: 12px;
+	}
+}
